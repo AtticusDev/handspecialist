@@ -55,27 +55,14 @@
 
 
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row  justify-content-md-center text-center">
+			<div class="col-md-12">
+				[Form]
+
+			</div>
 		</div>
 	</div>
 
 
-	<div class="container-fluid mb-0">
-		<div class="row">
-
-
-
-			<div class="entry-content">
-
-
-
-
-
-				<?php
-					the_content();
-				?>
-			</div><!-- .entry-content -->
-		</div>
-	</div>
 
 </article><!-- #post-## -->
