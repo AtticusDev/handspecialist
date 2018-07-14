@@ -87,7 +87,43 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4vw;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
+  font-family:'Gill Sans W01 Light';
+  font-weight: 100;
+}
+p {
+  line-height: 1.8;
+}
+body
+{
+  font-family:'Avenir LT W01_55 Roman1475520';
 }
 
+.mainLogo img
+{
+  width: 363px;
+}
+.ramon-image  {
+  vertical-align:bottom;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .mainLogo img{
+    width: 50vw;
+  }
+}
+
+.gform_wrapper.two-column_wrapper ul.gform_fields {
+display: none;
+}
+.gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
+display: block;
+float: left;
+width: 50%;
+}
+.gform_wrapper.two-column_wrapper ul.gform_column li.gsection:first-child {
+display: none;
+}
