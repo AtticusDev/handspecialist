@@ -21,29 +21,5 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-	<header id="masthead" class="site-header" role="banner">
-	    <nav class="navbar fixed-top transparent navbar-expand-lg navbar-light">
-	    	<div class="container">
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-		   		<div class="collapse navbar-collapse" id="navbarNav">
-	            <?php
-	            $args = array(
-	              'theme_location' => 'primary',
-	              'depth'      => 2,
-	              'container'  => false,
-	              'menu_class'     => 'navbar-nav',
-	              'walker'     => new Bootstrap_Walker_Nav_Menu()
-	              );
-	            if (has_nav_menu('primary')) {
-	              wp_nav_menu($args);
-	            }
-	            ?>
-	          </div>
-
-	        </div>
-		</nav>
-	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
