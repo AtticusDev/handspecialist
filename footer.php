@@ -19,11 +19,14 @@
 				<div class="col-md-3 text-center">
 				</div>
 				<div class="col-md-6 text-center text-white">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hand-specialist-logo.png" class=" pb-4"><br />
+					<div class="mainLogo">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hand-specialist-logo.png" class=" pb-4">
+					</div>
 					18 STREET NUMBER, TOWN, <br />
 					CITY, POSTCODE<br />
-					T: 020 7946 0725 E: INFO@THEHANDSPECIALIST.COM<br />
-					SITE DESIGNED AND BUILT BY ATTICUS
+					020 7946 0725<br>
+					<a href="mailto:info@thehandspecialist.com" class="text-white">INFO@THEHANDSPECIALIST.COM</a><br />
+					SITE DESIGNED AND BUILT BY <a href="http://www.atticuscreative.co.uk" target="_blank" class="text-white">ATTICUS</a>
 				</div>
 				<div class="col-md-3 text-center text-white">
 				</div>

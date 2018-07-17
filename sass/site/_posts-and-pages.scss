@@ -107,7 +107,7 @@ p {
 }
 body
 {
-  font-family:'Avenir LT W01_55 Roman1475520';
+  font-family:'Avenir LT W01_35 Light1475496';
 }
 .testimonial-body {
   font-family:'Gill Sans W01 Light';
@@ -116,7 +116,9 @@ body
   padding-right: 4rem;
   color: #939598; 
 }
-
+.testimonial-container {
+  height:100%;
+}
 .mainLogo img
 {
   width: 363px;
@@ -176,10 +178,10 @@ div.gform_footer.top_label {
 
 @media only screen and (max-width: 800px) {
   .mainLogo img{
-    width: 50vw;
+    width: 55vw;
   }
   h1 {
-  font-size:2rem;
+  font-size:1.5rem;
   }
   .gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
     clear: both;
@@ -188,6 +190,11 @@ div.gform_footer.top_label {
   .image-wrapperB {
     background-position: left;
   }
-
+  .testimonial-body {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #939598;
+  height:auto; 
+  }
 }
-
