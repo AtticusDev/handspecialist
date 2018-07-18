@@ -27,11 +27,11 @@
 				<div class="col-sm-12 col-md-6 text-center text-white mt-5 mb-5">
 				<h1>Your life in<br>
 				our hands</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Donec id orci leo. Donec felis lorem, iaculis et eros vitae, dictum tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Donec id orci leo. Donec felis lorem, iaculis et eros vitae, dictum tincidunt orci.</p>
+				<p>Your hands are incredibly important to your everyday life, and we understand the frustration caused by either one or both of them being injured. You want to get back to your normal activity, be that tennis or taxidermy. We will work with you on fitting your treatment plan around your schedule, ensuring you have a speedy recovery through a highly targeted rehabilitation process.</p>
 				</div>
 		</div>
 	</div>
-	<div class="container-fluid mb-0" style="background-color:#8ba1b6;">
+	<div class="container-fluid mb-0" style="background-color:#7da6b8;">
 		<div class="row justify-content-md-center">
 			<div class="container">
 				<div class="row align-items-end">
@@ -39,11 +39,11 @@
 					<h1>Ramon<br>Tahmassebi</h1>
 					<div class="mainLogo">
 					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hand-specialist-logo.png" class="pt-4 pb-4">
-					</div><p>Orthopaedic Consultant Ramon, has been. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Ddolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet.</p>
+					</div><p>Ramon is an orthopaedic surgeon who specialises in treating conditions of the hand, wrist and upper limb. His focus is always on developing a treatment plan tailored to the individual. He is also the lead orthopaedic consultant at King's College Hospital London and is involved in treating some of the capital's most seriously injured people. He is equally happy looking after professional sports teams and treating elite level athletes.</p>
 
 				</div>
 				<div class="col-sm-12 col-md-6 text-center text-white mt-5 ">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/ramon-image.jpg" class="align-bottom">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/ramon-image1.jpg" class="align-bottom">
 				</div>
 				</div>
 			</div>
@@ -54,28 +54,37 @@
 				<div class="col-sm-12 col-md-6 text-center mt-5 mb-5">
 				<h1>Hand conditions<br>
 	& sports injuries</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Donec id orci leo. Donec felis lorem, iaculis et eros vitae, dictum tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Donec id orci leo. Donec felis lorem, iaculis et eros vitae, dictum tincidunt orci.</p>
+				<p>Fractures of the wrist, scaphoid and hand<br />
+
+Sports injuries and rehabilitation<br />
+
+Keyhole surgery and minimally invasive techniques<br />
+
+Neurological conditions including nerve injury and entrapment<br />
+
+Ligament and tendon reconstructiony<br />
+
+Arthritis of the hand and wrist including joint replacement surgery</p>
 				</div>
 		</div>
 	</div>
 
-	<div class="container-fluid mb-0 text-center">
-		<div class="row">
-			<div class="pl-0 pr-0 image-wrapperB" style="background-image: url('<?php bloginfo('stylesheet_directory'); ?>/images/testimonial-image-new.jpg')">
-				<div class="container testimonial-container d-flex align-items-center">
-					<div class="row">
-						<div class="col-md-6 p-5 testimonial-body">
+	<div class="container-fluid mb-0" style="background-color:#0052c2;">
+		<div class="row justify-content-md-center">
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="col-sm-12 col-md-6 text-center p-4 mt-3 mb-3 testimonial-body">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis semper quam, at tincidunt elit commodo sit amet. Ut commodo tristique euismod. Donec id orci leo. Donec felis lorem,<br />
 							<span class="text-white"><i>Ramon Tahmassebi</i></span>
-						</div>
-					</div>
+
+				</div>
+				<div class="col-sm-12 col-md-6 text-center text-white mt-5 align-self-end">
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/testimonial-image-new11.jpg" class="align-bottom">
+				</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-
 	<div class="container">
 		<div class="row  justify-content-md-center text-center">
 			<div class="col-md-6 col-sm-12 mt-5 mb-5">
