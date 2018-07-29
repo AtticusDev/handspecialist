@@ -11,17 +11,24 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="container-fluid mb-0 text-center">
+	<div class="container-fluid mb-0 text-center" style="background-color: #0080db;">
 		<div class="row">
-			<?php if ( has_post_thumbnail() ) : ?>
-			<div class="pl-0 pr-0 image-wrapperA" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
-				<div class="mainLogo justify-content-md-center">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hand-specialist-logo.png" class="pt-5">
-				</div>
-			</div>
-			<?php endif; ?>
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-md-12">
+						<div class="mainLogo justify-content-md-center">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/hand-specialist-logo.png" class="pt-5">
+						</div>					
+					</div>
+					<div class="col-md-12">
+						<?php if ( has_post_thumbnail() ) : ?>
+							<img src="<?php the_post_thumbnail_url(); ?>" class="align-bottom">
+						<?php endif; ?>
+					</div>
 		</div>
 	</div>
+
+
 	<div class="container-fluid mb-0" style="background-color:#418de3;">
 		<div class="row justify-content-md-center">
 				<div class="col-sm-12 col-md-6 text-center text-white mt-5 mb-5">

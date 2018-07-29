@@ -6659,10 +6659,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .image-wrapperA {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   background-size: cover;
-  background-position: center center; }
+  background-position: center top; }
 
 .image-wrapperB {
   width: 100%;
@@ -6697,7 +6697,8 @@ body {
   height: 100%; }
 
 .mainLogo img {
-  width: 363px; }
+  width: 363px;
+  max-width: 363px; }
 
 .ramon-image {
   vertical-align: bottom; }
@@ -6748,9 +6749,18 @@ div.gform_footer.top_label {
   text-align: center;
   font-size: 0.8rem; }
 
+@media only screen and (max-width: 1800px) {
+  .image-wrapperA {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center; } }
+
 @media only screen and (max-width: 800px) {
   .mainLogo img {
-    width: 55vw; }
+    width: 55vw;
+    max-width: 320px; }
   h1 {
     font-size: 1.5rem; }
   .gform_wrapper.two-column_wrapper ul.gform_fields.gform_column {
